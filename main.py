@@ -11,17 +11,3 @@ if __name__ == "__main__":
 
     processor = VideoProcessor(path_to_input_video, dict_elements, path_to_output_video)
     processor.run()
-
-from utils.video_processor import VideoProcessor
-
-if __name__ == "__main__":
-    path_to_input_video = "input/test.mp4"
-    path_to_output_video = "output1/test.mp4"
-
-    dict_elements = {
-        "jump_ranges_normal": [[590,680],[1430,1500],[2430,2540]],
-        "spin_ranges_normal": [[1575,1880], [2580,3000],[3960, 4240]]
-    }
-
-    processor = VideoProcessor(path_to_input_video, dict_elements, path_to_output_video)
-    processor.run()
