@@ -29,9 +29,9 @@
 
 `path_to_output_video = "output/output_video.mp4"`
 
-Загрузить видео на сайт https://apireels.sportchamp.ru/interface2/
-
-Значения словаря dict_elements заполняются данными jump_ranges_normal,spin_ranges_normal с сайта
+В dict_elements указаны диапазоны для input/input_video.mp4
+Если нужно запустить скрипт для другого тестового видео, загрузить его на сайт https://apireels.sportchamp.ru/interface2/
+Заполнить значения словаря dict_elements данными из jump_ranges_normal,spin_ranges_normal с сайта
 dict_elements = 
 {
 
