@@ -25,9 +25,9 @@
 
 В main.py задаются пути и диапазоны кадров:
 
-path_to_input_video = "input/input_video.mp4"
+`path_to_input_video = "input/input_video.mp4"`
 
-path_to_output_video = "output/output_video.mp4"
+`path_to_output_video = "output/output_video.mp4"`
 
 Загрузить видео на сайт https://apireels.sportchamp.ru/interface2/
 
