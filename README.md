@@ -17,9 +17,11 @@
 ---
 ## Запуск через терминал
 
-**conda env create -f environment.yml**
+`conda env create -f environment.yml`
 
-**conda activate fskate**
+`conda activate fskate`
+
+`pip install -r requirements.txt`
 
 В main.py задаются пути и диапазоны кадров:
 
@@ -38,7 +40,7 @@ dict_elements =
 
 }
 
-Далее в терминале запустить алгоритм c помощью **python main.py**
+Далее в терминале запустить алгоритм c помощью `python main.py`
 
 ---
 ## Структура проекта
